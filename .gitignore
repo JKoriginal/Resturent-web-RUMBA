@@ -23,10 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Video files
-*.mp4
-*.avi
-*.mov
-*.wmv
-*.flv
-*.webm
