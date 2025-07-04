@@ -1,12 +1,65 @@
-# React + Vite
+# GSAP Animated Cocktail Bar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero](./public/readme/hero.png)
 
-Currently, two official plugins are available:
+A visually engaging, animated cocktail bar website built with React and GSAP. This project showcases smooth scroll-based animations, interactive sections, and a modern UI for a fictional cocktail bar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Animated hero section
+- Interactive cocktails menu
+- About and art showcase
+- Smooth scroll-triggered animations (GSAP + ScrollTrigger)
+- Responsive navigation bar
+- Contact section
 
-## Expanding the ESLint configuration
+## Demo
+Open `index.html` in your browser after setup, or run the local dev server (see below).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher recommended)
+- npm
+
+### Installation
+```bash
+npm install
+```
+
+### Running the Project
+```bash
+npm run dev
+```
+This will start the Vite development server. Open the provided local URL in your browser.
+
+## Folder Structure
+```
+GSAP/
+├── constants/
+├── public/
+│   ├── fonts/
+│   ├── images/
+│   ├── readme/
+│   │   └── hero.png
+│   └── videos/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Technologies Used
+- [React](https://react.dev/)
+- [GSAP](https://greensock.com/gsap/)
+- [Vite](https://vitejs.dev/)
+
+## Credits
+- Images and fonts are for demo purposes only.
+- Animations powered by GSAP.
+
+## License
+This project is for educational/demo purposes. Add a license if you plan to use it commercially.
