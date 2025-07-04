@@ -43,10 +43,7 @@ const Art = () => {
                 duration: 1,
                 ease: 'power1.inOut'
             })
-
     })
-
-
 
     return (
         <div id='art'>
